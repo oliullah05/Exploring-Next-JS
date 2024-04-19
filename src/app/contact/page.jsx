@@ -1,8 +1,8 @@
-import React from 'react';
+import style from "./Contact.module.css"
 
 const contact = () => {
     return (
-        <div>
+        <div className={style.heading}>
             this is contact
         </div>
     );
