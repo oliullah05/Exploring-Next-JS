@@ -4,7 +4,9 @@ export const metadata = {
 }
 
 const HomePage = async () => {
-  const res = await fetch("http://localhost:5000/shoes")
+  const res = await fetch("http://localhost:5000/shoes",{
+    cache:"force-cache"
+  })
   const shoes = await res.json()
   // console.log(data);
   return (
@@ -16,13 +18,14 @@ const HomePage = async () => {
         <figure><img src="https://daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg" alt="Shoes" /></figure>
         <div className="card-body">
           <h2 className="card-title">
-            Shoes!
-            <div className="badge badge-secondary">NEW</div>
+            {shoe.title}
+            <div className="badge badge-secondary">{shoe.price}</div>
           </h2>
-          <p>If a dog chews shoes whose shoes does he choose?</p>
-          <div className="card-actions justify-end">
-            <div className="badge badge-outline">Fashion</div> 
-            <div className="badge badge-outline">Products</div>
+          <p>{shoe.description}</p>
+          <div className="card-actions pb-0 mb-0 justify-end my-5">
+          <button className="btn btn-outline btn-primary ml-2">Buy Now</button>
+          <button className="btn btn-outline btn-primary">Details</button>
+         
           </div>
         </div>
       </div>
