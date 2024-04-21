@@ -1,0 +1,41 @@
+{
+    "shoes":[
+        {
+          "id": "SH001",
+          "title": "Men's Running Shoes",
+          "description": "High-performance running shoes designed for speed and comfort. Featuring lightweight construction and responsive cushioning.",
+          "price": 89.99
+        },
+        {
+          "id": "SH002",
+          "title": "Women's Trail Shoes",
+          "description": "Durable trail shoes built to handle rugged terrain. Waterproof and breathable materials keep your feet dry and comfortable on the trail.",
+          "price": 109.99
+        },
+        {
+          "id": "SH003",
+          "title": "Unisex Casual Sneakers",
+          "description": "Classic canvas sneakers suitable for everyday wear. Timeless design with a comfortable fit.",
+          "price": 49.99
+        },
+        {
+          "id": "SH004",
+          "title": "Kids' Sports Shoes",
+          "description": "Colorful sports shoes for active kids. Features include reinforced toe caps and non-marking outsoles.",
+          "price": 39.99
+        },
+        {
+          "id": "SH005",
+          "title": "Men's Dress Shoes",
+          "description": "Elegant leather dress shoes suitable for formal occasions. Handcrafted with attention to detail for a polished look.",
+          "price": 129.99
+        },
+        {
+          "id": "SH006",
+          "title": "Women's Sandals",
+          "description": "Stylish and comfortable sandals perfect for warm weather. Cushioned footbed and adjustable straps for a personalized fit.",
+          "price": 59.99
+        }
+      ]
+}
+  
