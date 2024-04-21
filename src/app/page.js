@@ -12,6 +12,7 @@ const HomePage = async () => {
    }
   })
   const shoes = await res.json()
+
   // console.log(data);
   return (
     <div >
